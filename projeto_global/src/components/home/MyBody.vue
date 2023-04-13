@@ -103,7 +103,8 @@ export default {
         display: flex;
         flex-direction: row;
         align-items: center;
-        padding: 0px;
+        padding: 0px 40px;
+        gap: 250px;
     }
 
     .divisao{
@@ -120,7 +121,7 @@ export default {
         padding: 50px 0px 0px 0px;
         gap: 400px;
         position: absolute;
-        left: 400px;
+        left: 450px;
         top: 780px;
     }
 
@@ -214,7 +215,6 @@ export default {
 
         color: #FFFFFF;
         padding: 0px;
-        padding: 30px 0px 0px 250px;
         
     }
 

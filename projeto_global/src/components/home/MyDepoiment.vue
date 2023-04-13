@@ -44,7 +44,7 @@ export default {
                     office: "Bendita Luz/Festa Mania",
                     city: "Parelhas/RN",
                     coment: "Foi no aniversário de 10 anos dessa empresa que começamos uma jornada linda, onde na pessoa de Adriana e Dayanna que temos um carinho que vai além do empresarial... Elas acreditam e lutam pelos nossos sonhos, sempre acreditam que podemos ir bem mais longe do que muitas vezes achamos que iremos...",
-                    caminhoImage: "/assets/dep/edjoel.svg"
+                    caminhoImage: "/assets/dep/ednalva.svg"
                 }
             ]
         }

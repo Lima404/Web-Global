@@ -3,20 +3,25 @@
         <div class="container MyCard">
             <div class="content">
                 <div class="up">
-                    <div class="text">
-                        <img src="../../assets/dep/Vector.svg" alt="">
-                        <div class="dep">
-                            <div>
-                                <p class="lib">{{ coment }}</p>
-                            </div>
-                            <div>
-                                <p class="name-person">{{ name }}</p>
-                                <p class="name-person">{{ office }} / {{ city }}</p>
+                    <div class="box">
+                        <div class="text">
+                            <img src="../../assets/dep/Vector.svg" alt="">
+                            <div class="dep">
+                                <div>
+                                    <p class="lib">{{ coment }}</p>
+                                </div>
+                                <div>
+                                    <p class="name-person">{{ name }}</p>
+                                    <p class="name-person">{{ office }} / {{ city }}</p>
+                                </div>
                             </div>
                         </div>
+                        <div id="pic">
+                            <img :src="caminhoImage" alt="Minha Imagem">
+                        </div>
                     </div>
-                    <div id="pic">
-                        <img :src="caminhoImage" alt="Minha Imagem">
+                    <div class="vec">
+                        <button @click="next">Proximo<img class="arrow" src="/assets/dep/seta.svg" alt="Seta apontando para a direita"></button>
                     </div>
                 </div>
             </div>
@@ -92,17 +97,16 @@ export default {
     justify-content: center;
     align-items: center;
     gap: 97px;
-    padding: 100px;
+    padding: 10px 40px;
 }
 
 .up{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 50px;
     background: #FFFFFF;
-    gap: 97px;
     border-radius: 50px;
 }
 
@@ -112,7 +116,7 @@ export default {
 
 .content{
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
     padding: 40px 100px;
@@ -163,33 +167,43 @@ export default {
     width: 415px;
 }
 
+button{
+    gap: 10px;
+}
+
 
 .vec{
-    display: flex;
-    flex-direction: row;
-    padding: 0px;
-    gap: 15px;
-    font-family: 'Inter';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1rem;
-    line-height: 24px;
-    cursor: pointer;
-    transition: 0.5s;
-
-    color: #000000;
+        display: flex;
+        align-items: center;
+        padding-right: 20px;
+        padding-top: 10px;
 }
 
 .vec:hover{
-    padding: 0px 10px;
-    background-color: #e6c776;
-    color: #FFFFFF;
-    border-radius: 20px;
+    filter: invert(48%) sepia(63%) saturate(445%) hue-rotate(152deg) brightness(109%) contrast(91%);
+    color: #41A8D3;
+    transition: all 200ms ease;
 }
+
+.vec button{
+    display: flex;
+    background: transparent;
+    border: none;
+    color: #023F5C;
+    font-family: "Inter",sans-serif;
+    font-size: 1rem;
+    font-weight: 600;
+    position: relative;
+    transition: all 400ms ease;
+    cursor: pointer;
+}
+
 
 a{
     text-decoration: none;
     color: #000000;
 }
+
+
 
 </style>
