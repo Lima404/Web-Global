@@ -30,21 +30,21 @@ export default {
                     office: "Farma mais ",
                     city: "Santa Cruz/RN",
                     coment: "A Equipe da Global faz parte do nascimento da Farma Mais... Ter começado certo e com as pessoas certas fez toda a diferença para hoje estarmos consolidados em nosso ramo. A Equipe da Global é especialista em transformar empresas e pessoas... É especialista em transformar vidas.",
-                    caminhoImage: "../../assets/dep/denise.svg"
+                    caminhoImage: "/assets/dep/denise.svg"
                 },
                 {
                     name: "Nara Luiza",
                     office: "Lovisa",
                     city: "Currais Novos/RN",
                     coment: "Há 3 anos tive a sensação de conhecer a Global, uma empresa que se tornou um divisor de águas em minha vida. Eu sou só gratidão pela Global fazer parte dos meus negócios. Caminhar com vocês é ter a certeza de uma trajetória mais segura, com menos risco de errar e com resultados mais incríveis.",
-                    caminhoImage: "../../assets/dep/denise.svg"
+                    caminhoImage: "/assets/dep/nara.svg"
                 },
                 {
                     name: "Ednalva e Joel",
                     office: "Bendita Luz/Festa Mania",
                     city: "Parelhas/RN",
                     coment: "Foi no aniversário de 10 anos dessa empresa que começamos uma jornada linda, onde na pessoa de Adriana e Dayanna que temos um carinho que vai além do empresarial... Elas acreditam e lutam pelos nossos sonhos, sempre acreditam que podemos ir bem mais longe do que muitas vezes achamos que iremos...",
-                    caminhoImage: "../../assets/dep/denise.svg"
+                    caminhoImage: "/assets/dep/edjoel.svg"
                 }
             ]
         }

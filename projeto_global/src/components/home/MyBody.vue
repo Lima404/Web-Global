@@ -197,6 +197,7 @@ export default {
         align-items: center;
         padding: 0px;
         gap: 250px;
+        z-index: 3;
     }
 
     .text{
