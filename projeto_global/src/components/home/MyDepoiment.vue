@@ -70,6 +70,7 @@ export default {
         justify-content: center;
         align-items: center;
         padding: 0px;
+        z-index: 3;
     }
         
     h3{

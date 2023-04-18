@@ -3,7 +3,7 @@
         <div class="container hero">
             <div class="base">
                 <div class="img">
-                    <img class="logoG" src="../../assets/footer/logoGrandeG.svg" alt="Logo grande Global">
+                    <div><img class="logoG" src="../../assets/footer/logoGrandeG.svg" alt="Logo grande Global"></div>
                     <div class="foto">
                         <img class="foto3" src="../../assets/hero/foto3.svg" alt="Foto dos socios">
                     </div>

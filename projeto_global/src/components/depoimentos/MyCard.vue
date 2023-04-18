@@ -70,7 +70,7 @@ export default {
             type: String
         },
         caminhoImage:{
-            type: String,
+            type: String
         }
     }
     

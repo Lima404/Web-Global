@@ -3,24 +3,34 @@
         <div class="container about">
             <div class="base">
                 <div class="buttons">
-                    <div class="primeiro">
-                        <p class="but">HISÓRIA</p>
-                        <p class="but">VISÃO</p>
-                    </div>
-                    <div class="ultimo">
-                        <p class="but">MISSÃO</p>
-                        <p class="but">VALORES</p>
-                    </div>
+                    <p class="but">VALORES</p>
+                    <p class="but">VISÃO</p>
+                    <p class="but">MISSÃO</p>
                 </div>
                 <div class="box">
+                    <div class="linha">
+                        <p class="text">Comprometimento, humanização, responsabilidade, transparência e ética.</p>
+                        <p class="text">Ser referência como uma agência completa em serviços empresariais.</p>
+                        <p class="text">Impactar positivamente a vida de pessoas e de negócios.</p>
+                    </div>
+                    <p class="but">HISÓRIA</p>
                     <div class="hist">
-                        <p class="txt">A Global surgiu de um trabalho acadêmico na UFRN e se tornou uma empresa de consultoria bem-sucedida em todo o Rio Grande do Norte. A Global oferece serviços em gestão, marketing e finanças, liderança, gestão de pessoas, treinamentos, psicanálise e marketing digital. A CEO da empresa, Adriana Souza, possui formação em Mentoring e lidera a equipe da Global, que é referência em consultoria, treinamentos, gestão e mentoria para empresas de pequeno e médio porte, profissionais liberais e gestores no Nordeste.
-                        </p>
+                        <div>
+                            <p class="boxh">A Global surgiu a partir de um trabalho da faculdade de administração na UFRN, quando a CEO Adriana Souza juntamente com colegas criaram uma Empresa de Consultoria – A GLOBAL.<br><br>
+
+                                O que surgiu como um trabalho acadêmico logo se tornou realidade quando a então aluna de administração, começou a realizar serviços no sentido de contribuir com o sucesso de pessoas e negócios.<br><br>
+                                
+                                Logo em seguida a empresa foi formalizada e passou a atuar em todo o Rio Grande do Norte atendendo empresas dos mais diversos segmentos.<br><br>
+                                
+                                Em 2019, Adriana fez a formação em Mentoring impulsionando ainda mais os resultados dos clientes ao utilizar ferramentas modernas e extraem todo o potencial empreendedor de pessoas dedicadas aos seus negócios.<br><br>
+                                
+                                Hoje a Global é formada pelas áreas de gestão, marketing e finanças com Adriana Souza à frente; Dayanna Soares com liderança, gestão de pessoas, treinamentos e psicanálise;  a área de marketing digital e design gráfico com Kelciano Douglas.<br><br>
+                                
+                                A Global é referência em todo o Nordeste quando se fala em Consultoria, Treinamentos, Gestão e Mentoria para empresas de pequeno/médio porte, profissionais liberais e gestores.
+                            </p>
+                        </div>
                         
                     </div>
-                    <p class="text">Ser referência como uma agência completa em serviços empresariais.</p>
-                    <p class="text">Impactar positivamente a vida de pessoas e de negócios.</p>
-                    <p class="text">Comprometimento, humanização, responsabilidade, transparência e ética.</p>
                 </div>
             </div>
 
@@ -69,17 +79,16 @@ export default {
     .base{
         display: flex;
         flex-direction: column;
+        padding-bottom: 50px;
         gap: 10px;
     }
 
     .buttons{
         display: flex;
-        display: flex;
         flex-direction: row;
         justify-content: center;
         align-items: center;
-        padding: 0px 320px;
-        gap: 150px;
+        gap: 156px;
     }
 
     .primeiro{
@@ -100,6 +109,7 @@ export default {
 
     .but{
         background: #E6C772;
+        color: #002647;
         box-shadow: 0px 10px 15px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
         border-radius: 4px;
         padding: 20px 40px;
@@ -113,33 +123,40 @@ export default {
 
     .box{
         display: flex;
+        flex-direction: column;
         color: white;
         align-items: center;
         justify-content: center;
         font-family: 'inter';
         font-weight: 400;
-        gap: 40px;
-        padding-bottom: 100px;
     }
 
     .text{
         background: #002647;
         border-radius: 20px;
         box-shadow: 0px 10px 15px rgba(136, 144, 194, 0.2), 0px 5px 15px rgba(37, 44, 97, 0.15);
+        text-align: center;
         padding: 40px 30px;
         width: 200px;
-        height: 300px;
+    }
+
+    .boxh{
+        display: flex;
+        flex-direction: column;
+        background: #002647;
+        border-radius: 20px;
+        text-align: justify;
+        margin-top: 10px;
+        padding: 40px 30px;
+        width: 820px;
+        gap: 50px;
     }
 
     .hist{
         display: flex;
         flex-direction: column;
-        background: #002647;
-        border-radius: 20px;
-        padding: 40px 30px;
-        width: 200px;
-        height: 300px;
-        gap: 50px;
+        gap: 20px;
+        padding-bottom: 40px;
     }
     
     .nichos{
@@ -150,10 +167,17 @@ export default {
         align-items: center;
         padding: 0px;
         gap: 250px;
+        z-index: 5;
     }
 
     .txt{
         font-size: 14px;
+    }
+
+    .linha{
+        display: flex;
+        gap: 50px;
+        padding-bottom: 40px;
     }
 
 
