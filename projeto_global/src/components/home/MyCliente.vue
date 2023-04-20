@@ -3,7 +3,7 @@
         <div class="container cliente">
             <div class="box">
                 <div class="image">
-                    <div class="col1">
+                    <div class="col">
                         <img src="../../../public/assets/cliente/4am.svg" alt="">
                         <img src="../../../public/assets/cliente/acari.svg" alt="">
                         <img src="../../../public/assets/cliente/adega.svg" alt="">
@@ -48,13 +48,37 @@
 </template>
 <script>
 export default {
-    
+        
 }
 </script>
 <style scoped>
 
-    .cliente-caontaier{
+    .cliente{
+        display: flex;
         background-color: #002647;
+    }
+
+    .box{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        padding: 61px 100px;
+    }
+
+    .col{
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+        padding: 72px;
+        background-color: white;
+        border-radius: 50px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    img{
+        width: 100px;
+        height: 100px;
     }
     
 </style>
