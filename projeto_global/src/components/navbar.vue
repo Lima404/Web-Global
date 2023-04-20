@@ -7,7 +7,10 @@
                 <div class="nav1">
                     <img src="../assets/navbar/LogoG.svg" alt="Logo Global">
 
-                    <a class="menu-button">SERVIÇOS</a>
+                    <router-link to="MyService">
+                        <a class="menu-button">SERVIÇOS</a>
+                    </router-link>
+                    
                     <a class="menu-button">DEPOIMENTOS</a>
                     <a class="menu-button">CLIENTES</a>
                     <a class="menu-button">QUEM SOMOS</a>
