@@ -26,6 +26,7 @@
                     <a href="#cliente">
                         <h2 class="menu-button">CLIENTES</h2>
                     </a>
+
                 </div>
 
                 <div class="nav2">
@@ -117,6 +118,48 @@ export default {
         padding: 0px;
         gap: 20px;
     }
+
+    a[href^="#service"] {
+        transition: all 0.5s ease-in-out;
+    }
+
+    a[href^="#service"]:hover {
+        color: #ff0000;
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+
+    a[href^="#depoiment"] {
+        transition: all 0.5s ease-in-out;
+    }
+
+    a[href^="#depoiment"]:hover {
+        color: #ff0000;
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+
+    a[href^="#about"] {
+        transition: all 0.5s ease-in-out;
+    }
+
+    a[href^="#about"]:hover {
+        color: #ff0000;
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+
+    a[href^="#cliente"] {
+        transition: all 0.5s ease-in-out;
+    }
+
+    a[href^="#cliente"]:hover {
+        color: #ff0000;
+        text-decoration: none;
+        transform: scale(1.1);
+    }
+
+    
 
     @media(max-width:1600px){
 
