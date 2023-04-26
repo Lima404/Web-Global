@@ -206,7 +206,7 @@ export default {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        gap: 70px;
+        gap: 100px;
 
         font-family: 'Inter';
         font-style: normal;
