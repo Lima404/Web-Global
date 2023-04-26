@@ -35,7 +35,7 @@
             </div>
 
             <div class="nichos">
-                <h2>NOSSOS CLIENTES</h2>
+                <h2 id="cliente">NOSSOS CLIENTES</h2>
             </div>
         </div>
     </section>
