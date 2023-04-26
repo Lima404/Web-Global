@@ -6,11 +6,21 @@
                 <div class="menuF">
                     <div class="mapa">
                         <h2>MAPA DO SITE</h2>
-                        <a class="menu-button">HOME</a>
-                        <a class="menu-button">SERVIÇOS</a>
-                        <a class="menu-button">DEPOIMENTOS</a>
-                        <a class="menu-button">QUEM SOMOS</a>
-                        <a class="menu-button">NOSSOS CLIENTES</a>
+                        <a href="#nav">
+                            <h2 class="menu-button">HOME</h2>
+                        </a>
+                        <a href="#service">
+                            <h2 class="menu-button">SERVIÇOS</h2>
+                        </a>
+                        <a href="#depoiment">
+                            <h2 class="menu-button">DEPOIMENTOS</h2>
+                        </a>
+                        <a href="#about">
+                            <h2 class="menu-button">QUEM SOMOS</h2>
+                        </a>
+                        <a href="#cliente">
+                            <h2 class="menu-button">NOSSOS CLIENTES</h2>
+                        </a>
                     </div>
                     
                     <div class="social">
@@ -44,8 +54,13 @@
     </section>
 </template>
 <script>
+import navbar from './navbar.vue'
+import MyHero from './views/MyHero.vue'
+import MyService from './views/MyService.vue'
+import MyDepoiment from './views/MyDepoiment.vue'
+import MyAbout from './views/MyAbout.vue'
 export default {
-    
+    components: { navbar, MyHero, MyService, MyDepoiment, MyAbout, }
 }
 </script>
 <style scoped>

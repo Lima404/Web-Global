@@ -14,11 +14,11 @@
 <script>
 import navbar from "./components/navbar.vue"
 import Footer from "./components/Footer.vue"
-import MyHero from "./components/home/MyHero.vue"
-import MyService from "./components/home/MyService.vue"
-import MyDepoiment from "./components/home/MyDepoiment.vue"
-import MyAbout from "./components/home/MyAbout.vue"
-import MyCliente from "./components/home/MyCliente.vue"
+import MyHero from "./components/views/MyHero.vue"
+import MyService from "./components/views/MyService.vue"
+import MyDepoiment from "./components/views/MyDepoiment.vue"
+import MyAbout from "./components/views/MyAbout.vue"
+import MyCliente from "./components/views/MyCliente.vue"
 export default {
   components:{ navbar, Footer, MyHero, MyService, MyDepoiment, MyAbout, MyCliente }
 }

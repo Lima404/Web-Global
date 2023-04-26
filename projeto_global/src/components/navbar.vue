@@ -2,19 +2,30 @@
     <section class="navbar-container">
         <div class="container navbar">
 
+            <h2 id="nav"></h2> 
+
             <div class="menu">
 
                 <div class="nav1">
-                    <img src="../assets/navbar/LogoG.svg" alt="Logo Global">
-
-                    <router-link to="MyService">
-                        <a class="menu-button">SERVIÇOS</a>
-                    </router-link>
+                              
                     
-                    <a class="menu-button">DEPOIMENTOS</a>
-                    <a class="menu-button">CLIENTES</a>
-                    <a class="menu-button">QUEM SOMOS</a>
-                    <a class="menu-button">CONTATOS</a> 
+                    <a href="#hero">
+                        <img src="../assets/navbar/LogoG.svg" alt="Logo Global">
+                    </a>
+
+                    <a href="#service">
+                        <h2 class="menu-button">SERVIÇOS</h2>
+                    </a>
+                    
+                    <a href="#depoiment">
+                        <h2 class="menu-button">DEPOIMENTOS</h2>
+                    </a>
+                    <a href="#about">
+                        <h2 class="menu-button">QUEM SOMOS</h2>  
+                    </a>
+                    <a href="#cliente">
+                        <h2 class="menu-button">CLIENTES</h2>
+                    </a>
                 </div>
 
                 <div class="nav2">
@@ -45,8 +56,12 @@
     </section>
 </template>
 <script>
+import MyHero from './views/MyHero.vue'
+import MyService from './views/MyService.vue'
+import MyDepoiment from './views/MyDepoiment.vue'
+import MyAbout from './views/MyAbout.vue'
 export default {
-    
+    components: { MyHero, MyService, MyDepoiment, MyAbout }
 }
 </script>
 <style scoped>
@@ -79,12 +94,17 @@ export default {
        
     }
 
+    a{
+        text-decoration: none;
+    }
+
     .menu-button{
         font-family: 'Inter';
         font-style: normal;
         font-weight: 700;
         font-size: 1rem;
         line-height: 24px;
+        cursor: pointer;
 
         color: #002647;
     }
