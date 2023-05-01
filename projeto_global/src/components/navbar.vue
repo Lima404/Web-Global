@@ -83,16 +83,16 @@ export default {
         flex-direction: row;
         align-items: center;
         padding: 7px 82px;
-        gap: 115.25px;
+        gap: 200px;
     }
 
     .nav1{
         display: flex;
         flex-direction: row;
+        justify-content: space-between;
         align-items: center;
         padding: 15px 0px;
-        gap: 30px;
-       
+        gap: 50px;
     }
 
     a{
