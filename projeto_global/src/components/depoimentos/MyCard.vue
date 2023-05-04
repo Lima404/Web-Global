@@ -55,14 +55,14 @@ export default {
         i:{
             type: Number,
             required: true,
-            default: 0
+            default: 0,
         },
         name:{
             type: String
         },
         office:{
             type: String
-        },
+        }, 
         city:{
             type: String
         },
