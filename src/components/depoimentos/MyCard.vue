@@ -209,9 +209,15 @@ a{
     color: #000000;
     }
 
+    .up{
+        gap: 15px;
+    }
+
     .box{
+        display: flex;
+        flex-direction: column;
         padding: 0;
-        gap: 0;
+        gap: 10px;
     }
 
 
