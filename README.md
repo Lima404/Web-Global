@@ -1,2 +1,2 @@
-# Web-Global
-Repositório referente ao projeto da Global Pen
+# Projeto-Global
+Criação do projeto site global pen
