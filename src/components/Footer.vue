@@ -80,8 +80,8 @@ export default {
     }
 
     .logoG{ 
-        width: 500px;
-        height: 330px;
+        width: 450px;
+        height: 280px;
     }
 
     .base{
@@ -150,6 +150,15 @@ export default {
         width: 400px;
         height: 300px;
     }
+    }
+
+    @media(max-width:1074px){
+
+        .logoG{
+            display:none;
+        }
+
+        
     }
     
 </style>
