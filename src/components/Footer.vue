@@ -157,8 +157,34 @@ export default {
         .logoG{
             display:none;
         }
+    }
 
-        
+    @media(max-width:1074px){
+
+        .logoG{
+            display:none;
+        }
+    }
+
+    @media(max-width:390px){
+
+        .base{
+            max-width: 390px;
+            padding: 30px 0px;
+        }
+        .menuF{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .mapa{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+        }
     }
     
 </style>
