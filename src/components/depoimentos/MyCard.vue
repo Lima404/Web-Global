@@ -73,16 +73,6 @@ export default {
 <style scoped>
 
 
-.MyCard-container{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
-    padding: 100px;
-    gap: 200px;
-
-    background: #002647;
-}
 
 
 .box{
@@ -113,7 +103,7 @@ export default {
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 40px 100px;
+    padding: 70px 90px;
     gap: 40px;
 }
 
@@ -259,6 +249,50 @@ a{
     }
 
  }
+
+ @media(max-width:575px){
+
+    .up{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        padding: 20px;
+        background: #FFFFFF;
+        border-radius: 50px;
+    }
+    
+    .text{
+        padding: 0px;
+        margin: 10px;
+        width: 324px;
+    }
+
+    .lib{
+        width: 324px;
+    }
+
+    .name-person{
+        width: 324px;
+    }
+
+}
+
+    @media(max-width:390px){
+        
+        .up{
+            width: 326px;
+        }
+
+        .foto{
+            width: 346px;
+            height: 284px;
+        }
+
+        .content{
+            padding: 60px 0px;
+        }
+    }
 
 
 
