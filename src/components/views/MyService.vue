@@ -257,6 +257,20 @@ export default {
 
     }
 
+    @media(max-width:390px){
+        p{
+            width: 360px;
+        }
+
+        .card{
+            max-width: 390px;
+            padding: 0px;
+        }
+        .carddg{
+            max-width: 390px;
+            padding: 0px;
+        }
+    }
 
     
 </style>
