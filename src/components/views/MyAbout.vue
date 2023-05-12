@@ -222,6 +222,13 @@ export default {
         }
     }
 
+    @media(max-width:390px){
+
+        .boxh{
+            max-width: 300px;
+        }
+    }
+
 
 
 
