@@ -65,6 +65,12 @@ export default {
         padding: 61px 100px;
     }
 
+    .image{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
     .col{
         display: flex;
         gap: 50px;
@@ -79,6 +85,29 @@ export default {
     img{
         width: 100px;
         height: 100px;
+    }
+
+    @media(max-width:390px){
+
+        .cliente{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .box{
+            padding: 40px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+        }
+
+        .col{
+            padding: 10px;
+            width: 300px;
+        }
+
     }
     
 </style>
