@@ -125,7 +125,16 @@ export default {
         }
 
         .logoG{
-            padding: 50px;
+            padding: 50px 0px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+    }
+
+    @media(max-width:390px){
+        .logoG{
+            width: 390px;
         }
     }
 </style>
