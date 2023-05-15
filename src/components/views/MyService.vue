@@ -257,9 +257,9 @@ export default {
 
     }
 
-    @media(max-width:390px){
+    @media(max-width:414px){
         p{
-            width: 360px;
+            width: 300px;
         }
 
         .card{
@@ -270,6 +270,12 @@ export default {
             max-width: 390px;
             padding: 0px;
         }
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+
     }
 
     
