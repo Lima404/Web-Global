@@ -278,7 +278,7 @@ a{
 
 }
 
-    @media(max-width:390px){
+    @media(max-width:414px){
         
         .up{
             width: 326px;
