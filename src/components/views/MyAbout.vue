@@ -18,7 +18,7 @@
                                 <p class="text">Impactar positivamente a vida de pessoas e de negócios.</p>
                             </div>
                         </div>
-                        <p class="but">HISÓRIA</p>
+                        <p class="but">HISTÓRIA</p>
                         <div class="hist">
                             <div>
                                 <p class="boxh">A Global surgiu a partir de um trabalho da faculdade de administração na UFRN, quando a CEO Adriana Souza juntamente com colegas criaram uma Empresa de Consultoria – A GLOBAL.
