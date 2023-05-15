@@ -166,7 +166,7 @@ export default {
         }
     }
 
-    @media(max-width:390px){
+    @media(max-width:414px){
 
         .base{
             max-width: 390px;
