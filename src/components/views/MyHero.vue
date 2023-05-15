@@ -132,7 +132,7 @@ export default {
         }
     }
 
-    @media(max-width:390px){
+    @media(max-width:414px){
         .logoG{
             width: 390px;
         }
