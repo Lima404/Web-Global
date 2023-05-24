@@ -257,7 +257,7 @@ export default {
 
     }
 
-    @media(max-width:414px){
+    @media(max-width:428px){
         p{
             width: 300px;
         }
