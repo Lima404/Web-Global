@@ -8,6 +8,8 @@
   },
   "dependencies": {
     "core-js": "^3.8.3",
+    "oh-vue-icons": "^1.0.0-rc3",
+    "react-icons": "^4.8.0",
     "vue": "^3.2.13"
   },
   "devDependencies": {
