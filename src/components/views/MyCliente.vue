@@ -87,7 +87,7 @@ export default {
         height: 100px;
     }
 
-    @media(max-width:414px){
+    @media(max-width:428px){
 
         .cliente{
             display: flex;
